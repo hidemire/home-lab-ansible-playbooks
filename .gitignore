@@ -1,0 +1,5 @@
+inventory/*
+!inventory/sample
+
+*/vars/*
+!*/vars/default.yml
