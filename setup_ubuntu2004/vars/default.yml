@@ -1,4 +1,4 @@
 ---
 create_user: hidemire
 copy_local_key: "{{ lookup('file', lookup('env','HOME') + '/.ssh/id_digitalocean.pub') }}"
-sys_packages: [ 'curl', 'vim', 'git', 'telnet']
+sys_packages: [ 'curl', 'vim', 'git', 'telnet', 'net-tools']
