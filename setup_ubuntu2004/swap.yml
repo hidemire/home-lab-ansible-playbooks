@@ -1,0 +1,6 @@
+---
+- hosts: all
+  vars:
+    swap_file_size_mb: '5120'
+  roles:
+    - geerlingguy.swap
